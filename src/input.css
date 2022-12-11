@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.e-mail {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container:hover>img {
+    filter: saturate(0) brightness(10);
+}
