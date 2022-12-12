@@ -11,6 +11,10 @@ html {
     align-items: center;
 }
 
+.github-link:hover .github-logo {
+    filter: invert(1) brightness(10);
+}
+
 .logo-container:hover>img {
     filter: saturate(0) brightness(10);
 }
